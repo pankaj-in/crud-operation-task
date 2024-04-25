@@ -66,7 +66,7 @@ function App() {
     <div className='App'>
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: "10px", marginBottom: "10px" }}>
         <div>
-          <label>First Name :
+          <label style={{}}>First Name :
             <input type='text' placeholder='Enter First Name' onChange={(e) => setFirstName(e.target.value)} value={firstName} />
           </label>
         </div>
